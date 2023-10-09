@@ -23,7 +23,7 @@ public class ValidateSearchEmployeeButton extends TestBase {
 		labour_form_page.EnterAddress("101,Rachna Apartment, Thane");
 		labour_form_page.EnterdateOfBirthDropdown("21-09-1995");
 				
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
  
 }
