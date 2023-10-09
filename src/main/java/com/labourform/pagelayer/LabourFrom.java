@@ -85,22 +85,18 @@ public class LabourFrom extends TestBase {
 	public void ClickOnSearchEmployeeButton() {
 		search_employee_button.click();
 	}
-
 	public void EnterAdharNumber(String AdharNo) {
 		addhar_number_textBox.sendKeys(AdharNo);
 	}
 	public void EnterEmployeeName(String EmployeeNamee) {
 		name_textBox.sendKeys(EmployeeNamee);
 	}
-
 	public void EnterFathersName(String FathersName) {
 		father_or_husband_name_textBox.sendKeys(FathersName);
 	}
-
 	public void EnterGender() {
 		MALE_radioButton.click();
 	}
-
 	public void EnterMarritalStatus() throws InterruptedException {
 		Thread.sleep(1000);
 		maritalStatus_dropdown.click();
@@ -108,23 +104,18 @@ public class LabourFrom extends TestBase {
 		single_maritalStatusDropdown_option.click();
 		Thread.sleep(1000);
 	}
-
 	public void EnterMobileNumber(String MobNo) throws InterruptedException {
 		contact_number_textBox.sendKeys(MobNo);
 		Thread.sleep(1000);
 	}
-
 	public void EmergencyContactNumber(String EmergencyContactNo) throws InterruptedException {
 		emergency_contact_number_textBox.sendKeys(EmergencyContactNo);
 		Thread.sleep(1000);
 	}
-
 	public void EnterAddress(String Address) {
 		address_textBox.sendKeys(Address);
 	}
-
 	public void EnterdateOfBirthDropdown(String Dob) {
 		dateOfBirth_dropdown.sendKeys(Dob);
 	}
-
 }
